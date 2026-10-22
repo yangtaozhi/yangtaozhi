@@ -1,30 +1,31 @@
-### Hi there, I'm Taozhi Yang (杨涛志) 👋
+Hi, I'm Taozhi Yang (杨涛志) 👋
+I'm an Artificial Intelligence undergraduate (Class of 2028) at the Future Technology Institute, South China University of Technology (SCUT), and an undergraduate researcher in Huaidong Zhang's Lab.
 
-我是**华南理工大学未来技术学院**的**人工智能专业本科生**[cite: 5]。我具备 AI 模型实验、算法建模仿真以及远端服务器训练部署的实战经验，正在寻求算法与数据科学方向的深入探索[cite: 5]。
+My research interests lie in embodied AI, continual robot learning, and Vision-Language-Action (VLA) models. I'm particularly interested in how robotic policies can acquire new skills while retaining previously learned ones. I'm also exploring world/action models and test-time adaptation.
 
-#### 🛠️ 技术栈 (Tech Stack)
-*   **编程与算法**: C++, Python, 数据结构与算法[cite: 5]
-*   **AI 与模型实验**: PyTorch, SmolVLA, LoRA / CL-LoRA, KD, Replay Buffer, NLP 情绪分析[cite: 5]
-*   **建模与仿真**: 图结构, Dijkstra, 启发式调度, 动态仿真, 策略对比[cite: 5]
-*   **工程与远端部署**: Xshell, Xftp, Git, Hydra, 服务器训练排障[cite: 5]
+🔬 Research Experience
+Continual VLA Learning for Sequential Robot Manipulation · Ongoing research
+- Built a sequential-task training and evaluation pipeline for SmolVLA on LIBERO, covering checkpoint management, task-specific adapter routing, and closed-loop success-rate evaluation.
+- Implemented and compared standard replay and prototype-based experience replay, investigating how a small set of representative samples can help retain performance on earlier tasks.
+- Compared LoRA / CL-LoRA configurations and developed ablation plans to study model components and action conditioning; experimental validation is ongoing.
+- Contributed to the adaptation of policy, data, and evaluation interfaces for RoboTwin.
+This research is ongoing; the manuscript is in preparation.
 
-#### 🚀 核心项目 (Featured Projects)
-*   **具身智能持续学习系统 | 张怀东老师课题组**[cite: 5]
-    *   参与 P10.5 CL-LoRA 机制向 SmolVLA 迁移，基于 PyTorch 封装 CLLoRALinear，支持 base layer 冻结与任务适配器注册[cite: 5]。
-    *   依托 Xshell 等终端工具，独立完成服务器训练评估排障，沉淀规范的远端执行流程[cite: 5]。
-*   **新能源物流车队协同调度系统**[cite: 5]
-    *   基于 Python 将路网抽象为图结构，使用邻接表与 Dijkstra 实现寻路优化[cite: 5]。
-    *   设计 Tick 物理世界与异步调度机制，支持邻近/重载优先等多维度调度策略对比[cite: 5]。
-*   **“森屿微光”智能硬件项目**[cite: 5]
-    *   负责产品外壳制作与物理结构迭代，带队推动可展示原型落地[cite: 5]。
-*   **NUS 国际交流项目 (NLP 情绪分析)**[cite: 5]
-    *   带队完成模型开发与全英文结果汇报，项目评估排名第一[cite: 5]。
+🛠️ Technical Skills
+- Programming: Python, C++
+- ML & Tools: PyTorch, Git, LaTeX, LeRobot
+- Models & Benchmarks: SmolVLA, VLA models, LIBERO, RoboTwin
+- Research Methods: Continual learning, experience replay, LoRA / CL-LoRA, robot-policy evaluation
 
-#### 🏆 荣誉与奖项 (Honors)
-*   第八届全国大学生嵌入式芯片与系统设计竞赛 **全国总决赛一等奖**[cite: 5]
-*   美国大学生数学建模竞赛 (MCM) **Successful Participant (S奖)**[cite: 5]
-*   NUS 国际交流项目 Edmund Low 教授签名优秀学生证明[cite: 5]
-*   第三届全国大学生职业生涯规划大赛 华南理工大学峻德书院一等奖[cite: 5]
+🚀 Selected Projects
+Dynamic Scheduling for Electric Logistics Fleets: Developed Python simulations for routing, charging, and dynamic dispatch; evaluated alternative scheduling strategies.
 
-#### 📫 联系方式 (Contact)
-*   **Email:** 2984458105@qq.com[cite: 5]
+Cross-Cultural Sentiment Analysis (NUS International Program): Led an NLP project and delivered the technical presentation in English.
+
+🏆 Honors & Awards
+- National First Prize (National Finals) — 8th National Undergraduate Embedded Chip and System Design Competition
+- Outstanding Student Certificate — National University of Singapore International Program
+- Successful Participant — Mathematical Contest in Modeling (MCM)
+
+📫 Contact
+Email: 202464871169@mail.scut.edu.cn
